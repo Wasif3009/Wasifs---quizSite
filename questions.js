@@ -26,7 +26,7 @@ let questions = [
   },
   {
     numb: 5,
-    question: "n SQL, what does the 'SELECT' statement do?",
+    question: "In SQL, what does the 'SELECT' statement do?",
     answer: "B. Retrieve data from a database",
     options: [
       "A. Deletes data from a database",
