@@ -1,0 +1,36 @@
+/* 1024 PX */
+@media (max-width: 75rem) {
+  html {
+    font-size: 55%;
+  }
+}
+/* 768 PX */
+@media (max-width: 49rem) {
+  html {
+    font-size: 52%;
+  }
+}
+/* MOBILE 425 PX */
+@media (max-width: 27rem) {
+  html {
+    font-size: 45%;
+  }
+  .navbar {
+    display: none;
+  }
+  .menu-bar {
+    display: block;
+  }
+}
+/* 375 PX */
+@media (max-width: 24rem) {
+  html {
+    font-size: 40%;
+  }
+}
+/* 325 PX */
+@media (max-width: 20rem) {
+  html {
+    font-size: 37%;
+  }
+}

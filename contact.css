@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #09001d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+}
+.contact {
+  border: 3px solid #851111;
+}
+
+.contact h1 {
+  font-size: 7rem;
+  font-weight: 600;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(180deg, white, #851111);
+  background-size: contain;
+  -webkit-background-clip: text;
+  color: transparent;
+  border-bottom: 2px solid #851111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.number {
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.email {
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.whatsapp {
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact--info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  padding: 30px;
+}
+.icon {
+  height: 35px;
+  width: 35px;
+  color: #851111;
+}
